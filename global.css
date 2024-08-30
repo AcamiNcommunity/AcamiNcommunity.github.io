@@ -6,4 +6,10 @@
     font-style: normal;
 }
 
+header {
+    color: #FFFF;
+}
+body {
+    background: linear-gradient(to right, #e1891e, #daa520);
+}
 
