@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Ginto';
+    src: url('fonts/Ginto-Regular.woff') format('woff'),
+         url('fonts/Ginto-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ginto';
+    src: url('fonts/Ginto-Bold.woff') format('woff'),
+         url('fonts/Ginto-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
