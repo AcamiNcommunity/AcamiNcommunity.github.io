@@ -1,0 +1,19 @@
+{
+  "name": "cubestomfoolerydumpster.github.io",
+  "version": "1.0.0",
+  "description": "Cube's server source code",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"i forgor xd\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CubesTomfooleryDumpster/CubesTomfooleryDumpster.github.io.git"
+  },
+  "author": "Bikoil",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/CubesTomfooleryDumpster/CubesTomfooleryDumpster.github.io/issues"
+  },
+  "homepage": "https://github.com/CubesTomfooleryDumpster/CubesTomfooleryDumpster.github.io#readme"
+}
