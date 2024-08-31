@@ -22,10 +22,32 @@ header {
 hr {
     border: 1px solid #FFFF;
     width: 80%;
-    margin: 20px auto;}
+    margin: 20px auto;
+}
 
 .discord-widget {
     margin-left: 20px;
-    margin-top: 20px; 
+    margin-top: 20px;
+}
+
+/* Animation for descending effect */
+@keyframes descend {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to the text and widget */
+.descend-text {
+    animation: descend 1.5s ease-out;
+}
+
+.descend-widget {
+    animation: descend 2s ease-out;
 }
 
