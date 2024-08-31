@@ -22,13 +22,10 @@ header {
 hr {
     border: 1px solid #FFFF;
     width: 80%;
-    margin: 20px auto; 
-}
+    margin: 20px auto;}
 
 .discord-widget {
-    position: absolute;
-    left: 20px;    
-    top: calc(50% + 30px);
-    transform: translateY(-50%);
+    margin-left: 20px;
+    margin-top: 20px; 
 }
 
