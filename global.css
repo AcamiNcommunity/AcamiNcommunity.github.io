@@ -6,12 +6,22 @@
     font-style: normal;
 }
 
-header {
-    color: #FFFF;
-}
 body {
     background: linear-gradient(to right, #e1891e, #daa520);
-}
-hr {
     color: #FFFF;
+    margin: 0;
+    font-family: 'Ginto', sans-serif;
 }
+
+header {
+    color: #FFFF;
+    margin: 20px 0;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #FFFF;
+    width: 80%;
+    margin: auto;
+}
+
