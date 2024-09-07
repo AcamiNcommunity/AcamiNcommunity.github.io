@@ -6,6 +6,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GintoNormal';
+    src: url('fonts/GintoNormalThin.woff') format('woff'),
+         url('fonts/GintoNormalThin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background: linear-gradient(to right, #e1891e, #daa520);
     color: #FFFF;
@@ -67,7 +75,7 @@ hr {
 
 .grid-item p {
     margin: 10px 0 0;
-    font-family: Arial, sans-serif;
+    font-family: 'GintoNormal', sans-serif;
     font-size: 20px;
 }
 
