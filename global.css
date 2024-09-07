@@ -11,6 +11,9 @@ body {
     color: #FFFF;
     margin: 0;
     font-family: 'Ginto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -30,24 +33,43 @@ hr {
     margin-top: 20px;
 }
 
-/* Animation for descending effect */
-@keyframes descend {
-    0% {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    flex: 1;
 }
 
-/* Apply animation to the text and widget */
-.descend-text {
-    animation: descend 1.5s ease-out;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    width: calc(100% - 370px); /* Remaining width after Discord widget */
+    height: 500px;
 }
 
-.descend-widget {
-    animation: descend 2s ease-out;
+.grid-item {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.banner {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
 }
 
